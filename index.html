@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+    <link rel = stylesheet href = "style.css">
+    <style>
+        *{margin : 0px;
+        padding:0px;}
+    body{background-color: rgb(172, 180, 180);}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id = "title">
+            <h1>Job Application</h1><h3 style = "align-self: center;">(Web)</h3>
+        </div>
+        <form style = "margin-top:10px; display:grid;    grid-template-columns: 130px 190px;
+    grid-auto-rows: 80px;flex-wrap: wrap;justify-content: space-between;">
+            <div id = "one">
+            <p>Name</p>
+            <input type = text placeholder="Enter name">  
+            </div>
+            <div id = "two">
+                <p>last name</p>
+                <input type = text placeholder="Enter lastname">  
+
+            </div>
+                <div id = "three">
+                <p>Email</p>
+                <input type = email placeholder="Enter email">  
+
+            </div>
+                <div id = "four">
+                <p>job role</p>
+                <select id = "select" name = "select" required>
+                    <option value = "">select role</option>  
+                    <option value = "frontend">frontend</option>  
+                    <option value = "backend">backend</option> 
+                </select>
+                </div> 
+                <div if = "five">
+                    <p>Address</p>
+                    <textarea placeholder = "address"></textarea></div>
+                           <div id = "six">
+                <p>city</p>
+                <input type = text placeholder="city name">  
+
+            </div>
+                      <div id = "seven">
+                <p>pin code</p>
+                <input type = number placeholder="Enter pin code">  
+
+            </div>
+            
+                      <div id = "eight">
+                <p>city</p>
+                <input type = date placeholder="18-10-2026">  
+
+            </div>
+               <div id = "nine">
+                <p>Upload your cv</p>
+                <input type = file placeholder="upload your cv" style = "border :1px  rgb(56, 54, 54) ;border-radius: 30%">  
+
+            </div>
+            <button type = submit id = "submit">submit</button>
+
+        
+        </div>
+    
+</body>
+</html>

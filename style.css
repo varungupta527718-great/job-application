@@ -1,0 +1,81 @@
+#container{
+    display:flex;
+    flex-direction: column;
+    width:34vw;
+    margin-left:33vw;
+    margin-top:50px;
+    background-color: rgb(252, 252, 252);
+    border:0.5px  rgb(56, 54, 54);
+    box-shadow: 1px 2px 15px;
+    padding:20px;
+}
+#title{
+    display:flex;
+  gap:10px;
+}
+#one{
+    grid-column: 1;
+    grid-row:1
+}
+p{
+    font-size: larger;
+}
+
+#two{
+    grid-column: 2;
+    grid-row:1;
+    
+
+}
+#three{
+    grid-row: 2;
+    grid-column: 1;
+}
+input,#select{
+    width:192px;
+    height:32px;
+    border-radius: 4%;
+}
+#four{
+    grid-column: 2;
+    grid-row: 2;
+}
+#five{
+    grid-row: 3;
+    grid-column: span 2;
+}
+#six{
+    grid-row: 4;
+    grid-column: 1;
+}
+#seven{
+    grid-row:4 ;
+    grid-column:2 ;
+}
+#eight{
+    grid-row: 5;
+    grid-column: 1;
+}
+#nine{
+    grid-row: 5;
+    grid-column: 2;
+    display:flex;
+    flex-direction: column;
+
+}
+textarea{
+    width:523px;
+}
+#submit{
+    width:50px;
+    height:20px;
+    grid-column: 2;
+    grid-row:6;
+    position:relative;
+    right:10px;
+    background-color: red;
+    color:white;
+    border:0px solid black;
+    border-radius: 5%;
+    margin-left:140px ;
+}
